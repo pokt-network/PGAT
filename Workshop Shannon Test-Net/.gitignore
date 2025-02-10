@@ -1,0 +1,4 @@
+config.json
+.env
+*.odp*
+.DS_Store

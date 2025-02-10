@@ -1,0 +1,12 @@
+{
+  "rpc_url": "http://localhost:26657",
+  "grpc_config": {
+    "host_port": "localhost:9090",
+    "insecure": true
+  },
+  "app_address": "your app address",
+  "app_private_key_hex": "your application private key hex, see the docs",
+  "service_id": "A100",
+  "path" : "/v1/completions",
+  "payload" : "{\"prompt\": \"Whats your name?\",\"max_tokens\":25, \"model\":\"pocket_network\"}"
+}
