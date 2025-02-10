@@ -42,7 +42,7 @@ Finally, start the relay miner:
 (you can track logs with `docker compose logs -f --tail 100 relayminer`)
 
 
-##### Example files
+# Example files
 
 `stake_configs/supplier_stake_config_example.yaml`:
 ```yaml

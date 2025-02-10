@@ -81,7 +81,6 @@ func main() {
 		fmt.Println(err)
 		log.Fatal(fmt.Sprintf("Error getting session data for app %s in service %s", config.AppAddr, config.ServiceID))
 	}
-	fmt.Println(appSession)
 
 	// Get all the endpoint available in this session
 	endpoints, err := shannon.EndpointsFromSession(appSession)

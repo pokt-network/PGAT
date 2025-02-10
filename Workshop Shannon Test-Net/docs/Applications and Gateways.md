@@ -56,7 +56,7 @@ docker exec -it full-node tx application delegate-to-gateway <GATEWAY ACCOUNT AD
 (replace `<GATEWAY ACCOUNT ADDRESS>` with the address of the gateway account)
 
 
-##### Example files
+# Example files
 
 `stake_configs/application_stake_config_example.yaml`:
 ```yaml

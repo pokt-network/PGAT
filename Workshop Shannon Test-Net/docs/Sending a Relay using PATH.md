@@ -56,7 +56,7 @@ curl http://ai.localhost:3069/v1/v1/completions \
 Its important to note that the target backend path (`v1/completions`) is written after the `v1` thats from PATH's API.
 
 
-##### Example files
+# Example files
 
 `gateway/config/gateway_config.yaml` (Centralized Gateway):
 ```yaml
